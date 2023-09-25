@@ -4,7 +4,7 @@
 }
 
 .theme-dark .guilds-2JjMmN{
-    width: 120px;
+    width: 48px;
     background-color: transparent;
 
     // When a call is in fullscreen, set guilds width to 0
@@ -19,7 +19,7 @@
 
     .listItem-3SmSlK{
         margin: 0;
-        width: 120px;
+        width: 48px;
 
         // Hover state
         &:hover .wrapper-3kah-n::before,
@@ -88,8 +88,8 @@
         // Inbox
         // NOTE 2022-03-07 - Provides compat for updated Inbox icon when Experiment 2022-01_inbox_redesign is on.
         .iconButton-2z1iK7 {
-            width: 120px;
-            height: 120px;
+            width: 48px;
+            height: 48px;
             &[data-list-item-id="guildsnav___inbox-button"] {
                 background-color: transparent;
                 &::before{
@@ -278,7 +278,7 @@
     // Unread notification bars
     .unreadMentionsIndicatorBottom-3RJMnQ,
     .unreadMentionsIndicatorTop-2bTgUU{
-        width: 120px;
+        width: 48px;
         .bar-2eAyLE{
             background-color: $SystemFillColorCriticalBackground;
         }
